@@ -49,6 +49,10 @@ Pauli(qc)
 
 해설은 출처 원문 참고: [algovista #1](https://github.com/algovista-collab/qiskit_v2_study_materials/blob/main/25_Practice_Questions.md)
 
+- A: `@`는 그대로 곱함. $X \cdot Z = -i Y$.
+- B: -1j를 곱한것.
+- D: question: 이거 출력 뭐로 나오지?
+
 </details>
 
 ---
@@ -76,6 +80,8 @@ D. `SparsePauliOp(['IIXYZI'], coeffs=[2.+0.j])`
 **B**
 
 해설은 출처 원문 참고: [algovista #2](https://github.com/algovista-collab/qiskit_v2_study_materials/blob/main/25_Practice_Questions.md)
+
+- qiskit 순서: 뒤에서부터 0
 
 </details>
 
@@ -109,6 +115,14 @@ D. 0.125
 
 해설은 출처 원문 참고: [algovista #3](https://github.com/algovista-collab/qiskit_v2_study_materials/blob/main/25_Practice_Questions.md)
 
+$$ Rn^​(θ)=cos2θ​I−isin2θ​(n^⋅σ)$$
+
+$$R_X(\theta) = \begin{pmatrix}\cos\frac\theta2 & -i\sin\frac\theta2\  \\ -i\sin\frac\theta2 & \cos\frac\theta2\end{pmatrix}$$
+$$R_Y(\theta) = \begin{pmatrix}\cos\frac\theta2 & -\sin\frac\theta2\ \\ \sin\frac\theta2 & \cos\frac\theta2\end{pmatrix}$$
+
+$$R_Z(\theta) = \begin{pmatrix}e^{-i\theta/2} & 0\ \\ 0 & e^{i\theta/2}\end{pmatrix}$$
+- RY(pi/3) = {{}}
+
 </details>
 
 ---
@@ -130,6 +144,8 @@ d) `p = Pauli('XI')`
 **A**
 
 해설은 출처 원문 참고: [clausia #1](https://github.com/clausia/qiskit-v2.x-cert-practice-exam/blob/main/practice-exam-1.md)
+
+- OK
 
 </details>
 
@@ -162,6 +178,8 @@ d) $|0\rangle$
 
 해설은 출처 원문 참고: [clausia #2](https://github.com/clausia/qiskit-v2.x-cert-practice-exam/blob/main/practice-exam-1.md)
 
+- OK
+
 </details>
 
 ---
@@ -183,6 +201,8 @@ d) $-\pi$
 **A**
 
 해설은 출처 원문 참고: [clausia #3](https://github.com/clausia/qiskit-v2.x-cert-practice-exam/blob/main/practice-exam-1.md)
+
+- OK
 
 </details>
 
@@ -215,6 +235,8 @@ d) 1.00
 
 해설은 출처 원문 참고: [clausia #4](https://github.com/clausia/qiskit-v2.x-cert-practice-exam/blob/main/practice-exam-1.md)
 
+- |1> ->  |0>-|1> -> |0>+|1> -> (b)
+
 </details>
 
 ---
@@ -243,6 +265,8 @@ d) 0.866
 
 해설은 출처 원문 참고: [clausia #5](https://github.com/clausia/qiskit-v2.x-cert-practice-exam/blob/main/practice-exam-1.md)
 
+- cos 3/pi 에 제곱
+
 </details>
 
 ---
@@ -264,6 +288,8 @@ d) `qc.h(0); qc.cz(0,1)`
 **A,B**
 
 해설은 출처 원문 참고: [clausia #6](https://github.com/clausia/qiskit-v2.x-cert-practice-exam/blob/main/practice-exam-1.md)
+
+- OK
 
 </details>
 
@@ -287,6 +313,8 @@ d) X and Y
 
 해설은 출처 원문 참고: [clausia #7](https://github.com/clausia/qiskit-v2.x-cert-practice-exam/blob/main/practice-exam-1.md)
 
+- OK
+
 </details>
 
 ---
@@ -308,6 +336,8 @@ d) `qc.rz(np.pi, 0)`
 **B**
 
 해설은 출처 원문 참고: [clausia #8](https://github.com/clausia/qiskit-v2.x-cert-practice-exam/blob/main/practice-exam-1.md)
+
+- OK
 
 </details>
 
@@ -338,6 +368,8 @@ qc.cx(1, 2)
 **A**
 
 해설은 출처 원문 참고: [MarcoBarroca #4](https://github.com/MarcoBarroca/qiskit-v2-mock-exam/blob/main/notebooks/qiskit_v2_mock_exam.ipynb)
+
+- 000 -> 100 -> 101 -> 111 -> 011
 
 </details>
 
