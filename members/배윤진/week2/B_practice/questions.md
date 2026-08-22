@@ -30,6 +30,8 @@ D. `plot_bloch_multivector`
 
 해설은 출처 원문 참고: [algovista #4](https://github.com/algovista-collab/qiskit_v2_study_materials/blob/main/25_Practice_Questions.md)
 
+- 나중에 다시보기. 모르면 걍 모르는거라
+
 </details>
 
 ---
@@ -61,6 +63,8 @@ D. Qubit 0 vector points along $-Z$; Qubit 1 vector points along $+X$
 
 해설은 출처 원문 참고: [algovista #5](https://github.com/algovista-collab/qiskit_v2_study_materials/blob/main/25_Practice_Questions.md)
 
+- 이것도 마찬가지
+
 </details>
 
 ---
@@ -83,6 +87,8 @@ d) `qc.draw_mpl()`
 
 해설은 출처 원문 참고: [clausia #9](https://github.com/clausia/qiskit-v2.x-cert-practice-exam/blob/main/practice-exam-1.md)
 
+- 마찬가지...
+
 </details>
 
 ---
@@ -104,6 +110,8 @@ d) `from qiskit.visualization import plot_histogram; plot_histogram(qc, filename
 **A**
 
 해설은 출처 원문 참고: [clausia #10](https://github.com/clausia/qiskit-v2.x-cert-practice-exam/blob/main/practice-exam-1.md)
+
+- 마찬가지.
 
 </details>
 
@@ -241,6 +249,8 @@ A qubit is initialized with amplitudes `[sqrt(3)/2, 1/2]`. Which Bloch-vector pa
 **C**
 
 해설은 출처 원문 참고: [MarcoBarroca #6](https://github.com/MarcoBarroca/qiskit-v2-mock-exam/blob/main/notebooks/qiskit_v2_mock_exam.ipynb)
+
+- 애초에 각도가 적당히 틀어진게 C밖에 없기도하고.
 
 </details>
 
